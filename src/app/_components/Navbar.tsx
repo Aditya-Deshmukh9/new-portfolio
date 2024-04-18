@@ -13,7 +13,7 @@ function Navbar() {
     };
 
     const navLinks = [
-        { to: "/", text: "Home" },
+        { to: "Home", text: "Home" },
         { to: "about", text: "About" },
         { to: "projects", text: "Projects" },
         { to: "contact", text: "Contact" },
@@ -62,9 +62,9 @@ function Navbar() {
                 <div className="md:hidden absolute bg-white dark:bg-black dark:text-white top-16 left-0 right-0">
                     <div className="flex flex-col items-center">
                         {navLinks.map((e, index) => (
-                            <Link key={index} href={e.to} className="p-4 hover:bg-gray-200">
+                            <ScrollLink key={index} to={e.to} className="p-4 hover:bg-gray-200">
                                 {e.text}
-                            </Link>
+                            </ScrollLink>
                         ))}
                     </div>
                 </div>

@@ -38,7 +38,7 @@ function Banner() {
                                 repeat={Infinity}
                             />
 
-                            <TextGenerateEffect words={`My future goal is create Exitsing Project that use for Industry Development`} />
+                            <TextGenerateEffect words={`My future goal is to create exitsing projects that use for Industry Development`} />
 
                             <Link
                                 href="https://github.com/Aditya-Deshmukh9"
